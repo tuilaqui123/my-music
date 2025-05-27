@@ -1,0 +1,19 @@
+import CardBox from "@/components/cardBox";
+
+export default function PlaylistsPage() {
+  return (
+    <div>
+      <h3 className="text-3xl mb-5 font-black">Playlists</h3>
+      <div className="grid grid-cols-4 gap-4">
+        <CardBox />
+        <CardBox />
+        <CardBox />
+        <CardBox />
+        <CardBox />
+        <CardBox />
+        <CardBox />
+        <CardBox />
+      </div>
+    </div>
+  );
+}
